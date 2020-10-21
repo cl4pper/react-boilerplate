@@ -10,7 +10,7 @@ function MainLink(props) {
 		<a
 			className={classNames('MainLink', {
 				'MainLink--dark': !light,
-				'MainLink--light': light
+				'MainLink--light': light,
 			})}
 			href={to}
 			target="_blank">

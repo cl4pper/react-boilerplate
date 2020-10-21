@@ -11,7 +11,7 @@ function PageTitle(props) {
 		<div
 			className={classNames('PageTitle', {
 				'PageTitle--dark': !light,
-				'PageTitle--light': light
+				'PageTitle--light': light,
 			})}>
 			<h1 className="PageTitle__title">{children}</h1>
 			{subtitle ? <p className="PageTitle__subtitle">{subtitle}</p> : null}

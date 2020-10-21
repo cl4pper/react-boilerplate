@@ -38,12 +38,12 @@ class CommitsListContainer extends Component {
 }
 
 const mapDispatchToProps = (dispatch) => ({
-	loadData: () => dispatch(githubRequest())
+	loadData: () => dispatch(githubRequest()),
 });
 
 const mapStateToProps = (state) => ({
 	commits: state.github.data,
-	strings: state.strings.data
+	strings: state.strings.data,
 });
 
 const CommitsList = connect(mapStateToProps, mapDispatchToProps)(CommitsListContainer);

@@ -42,7 +42,7 @@ class AppContainer extends Component {
 }
 
 const mapStateToProps = (state) => ({
-	strings: state.strings.data
+	strings: state.strings.data,
 });
 
 const App = connect(mapStateToProps)(AppContainer);

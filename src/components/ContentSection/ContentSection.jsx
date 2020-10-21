@@ -15,10 +15,10 @@ function ContentSection(props) {
 				'ContentSection--right': right,
 				'ContentSection--left': left,
 				'ContentSection--spaced': spaced,
-				'ContentSection--vertical': vertical && !left && !right && !spaced
+				'ContentSection--vertical': vertical && !left && !right && !spaced,
 			})}
 			style={{
-				height: `${height}`
+				height: `${height}`,
 			}}>
 			{children}
 		</section>
