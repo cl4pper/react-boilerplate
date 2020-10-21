@@ -7,7 +7,7 @@
 		"test": "jest --config ./jest.config.json",
 		"test:watch": "npm run test -- --watch",
 		"app": "webpack-dev-server --open",
-		"style:fix": "prettier --write '**/*.jsx'",
+		"lint": "prettier --write '**/*.jsx'",
 		"stories": "start-storybook --port 9090",
 		"start": "node server.js",
 		"build": "webpack -p",

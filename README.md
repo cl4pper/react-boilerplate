@@ -10,7 +10,7 @@ platform. You just need to set the config. on Heroku's side and "voilà"...easy 
 2. **npm i** (inside project root directory)
 3. **npm run app** (to run project by webpack-dev-server)
 4. **npm run stories** (to run components documentation)
-5. **npm run style:fix** (to fix code style using prettier)
+5. **npm run lint** (to fix code style using prettier)
 6. **npm run test / npm run test:watch** (to run tests once / constantly)
 
 ## Releases:
